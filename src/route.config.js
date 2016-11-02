@@ -5,45 +5,21 @@
 const Route=[{
   path:"/",
   name:"首页",
-  component:require("./pages/home.vue")
-},
-  {
-    path:"/about",
-    name:"关于",
-    component:require("./pages/about.vue"),
-    meta:{
-      "power":{
-        "A":{
-          "add":true
-        }
-      }
-    }
-  },
-  {
-    path:"/user",
-    name:"user",
-    component:require("./pages/user.vue"),
-    meta:{
-      "power":{
-        "A":{
-          "add":true
-        }
-      }
+  component:require("./pages/home.vue"),
+  "children":[
+    {
+      path:"/chart",
+      name:"图表",
+      component:require("./pages/chart.vue")
     },
-    "children":[
-      {
-        path:"user1",
-        component:require("./pages/user1.vue"),
-        meta:{
-          "power":{
-            "A":{
-              "add":true
-            }
-          }
-        }
-      }
-    ]
-  }];
+    {
+      path:"/email",
+      name:"email",
+      component:require("./pages/about.vue")
+    }
+  ]
+}
+  ];
 
 //const  Route=registerRoute(Navconfig);
 export default Route;

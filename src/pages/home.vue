@@ -9,7 +9,9 @@
       <div class="c-header">
         <my-header ></my-header>
       </div>
-
+      <div class="content-bottom">
+        <router-view></router-view>
+      </div>
     </div>
   </div>
 </template>
@@ -40,7 +42,6 @@
     padding: 0;
     background: #f4f4f4;
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
     -webkit-font-smoothing: antialiased;
     line-height: 1.42857143;
     color: #58666e;
@@ -57,14 +58,19 @@
     position: relative;
     margin-left: 210px;
     .c-header{
-      position: absolute;
+      position: fixed;
       top:0;
-      left: 0;
+      left: 210px;
       right: 0;
+      z-index: 1;
     }
   }
   ul{
     margin-top: 0;
   }
-
+.content-bottom{
+  position: relative;
+  top:52px;
+  padding: 20px;
+}
 </style>

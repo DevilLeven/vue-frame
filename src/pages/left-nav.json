@@ -1,13 +1,13 @@
 [
 
   {
-    "path":"home",
+    "path":"/email",
     "name":"Email",
     "icon":"el-icon-message"
   },
   {
-    "path":"about",
-    "name":"APPs",
+    "path":"/chart",
+    "name":"Chart",
     "icon":"el-icon-star-off"
   },{
   "path":"",
@@ -15,7 +15,7 @@
   "icon":"el-icon-menu",
   "children":[
     {
-      "path":"",
+      "path":"/557",
       "name":"Email",
       "icon":"el-icon-message"
     }

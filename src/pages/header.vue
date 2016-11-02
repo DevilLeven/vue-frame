@@ -43,6 +43,11 @@
       return{
         showusrset:false
       }
+    },
+    destroyed() {
+      let userbutton=this.$el.getElementsByClassName("user")[0];
+      off(document,"click");
+      off(userbutton,"click");
     }
   }
 </script>
