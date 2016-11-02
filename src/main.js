@@ -4,6 +4,9 @@ import  vueResource from "vue-resource";
 import configRouter from './route.config';
 import VueRouter from 'vue-router';
 import until from "./until";
+import Element from 'element-ui';
+import 'element-ui/lib/theme-default/index.css'
+Vue.use(Element);
 Vue.use(VueRouter);
 Vue.use(vueResource);
 Vue.http.options.emulateJSON = true;
@@ -25,7 +28,7 @@ router.beforeEach((to, from, next) => {
 Vue.http.interceptors.push((request, next)  => {
 
   console.log(request);
-//使用es5写法 方便使用this==Vue
+//使用es5写法 方便使用this==Vue实例化组件
   next(function (response) {
     console.log(response.body);
     //通过until的方法进行通讯

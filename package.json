@@ -60,8 +60,10 @@
     "webpack-hot-middleware": "^2.12.2",
     "webpack-merge": "^0.14.1",
     "vue-router":"^2.0.0",
-    "vue-resource":"^1.0.3"
-
+    "vue-resource":"^1.0.3",
+    "element-ui": "^1.0.0-rc.7",
+    "less-loader":"^2.2.3",
+    "less":"^2.7.1"
   },
   "engines": {
     "node": ">= 4.0.0",

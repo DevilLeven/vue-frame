@@ -1,0 +1,24 @@
+[
+
+  {
+    "path":"home",
+    "name":"Email",
+    "icon":"el-icon-message"
+  },
+  {
+    "path":"about",
+    "name":"APPs",
+    "icon":"el-icon-star-off"
+  },{
+  "path":"",
+  "name":"Dashboard",
+  "icon":"el-icon-menu",
+  "children":[
+    {
+      "path":"",
+      "name":"Email",
+      "icon":"el-icon-message"
+    }
+  ]
+}
+]

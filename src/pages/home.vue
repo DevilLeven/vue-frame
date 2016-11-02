@@ -1,39 +1,70 @@
 <template>
   <div >
-    <img src="../assets/logo.png">
-    <hello></hello>
-    <textarea name="content" style="width:800px;height:400px;visibility:hidden;">KindEditor</textarea>
+
+
+    <div class="leftnav">
+      <left></left>
+    </div>
+    <div class="content">
+      <div class="c-header">
+        <my-header ></my-header>
+      </div>
+
+    </div>
   </div>
 </template>
 
 <script>
-  import Hello from './../components/Hello'
-  import KD from "kindeditor";
-  import css from "kindeditor/themes/default/default.css"
+  import left from "./left-nav.vue";
+  import Myheader from "./header.vue";
+
   export default {
-    name: 'app',
+    name: 'home',
     components: {
-      Hello
+      left,
+      "my-header":Myheader
     },
     created(){
-      KindEditor.ready(function(K) {
-        var editor = K.create('textarea[name="content"]', {
-          allowFileManager : true,
-          uploadJson:"json/json.jsp"
-        });
-      });
 
     }
   }
 </script>
 
-<style>
-  #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
+<style lang="less">
+  html{
+    margin: 0;
+    padding: 0;
   }
+  body{
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.42857143;
+    color: #58666e;
+  }
+  .leftnav{
+    width: 210px;
+    float: left;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+  }
+  .content{
+    position: relative;
+    margin-left: 210px;
+    .c-header{
+      position: absolute;
+      top:0;
+      left: 0;
+      right: 0;
+    }
+  }
+  ul{
+    margin-top: 0;
+  }
+
 </style>
