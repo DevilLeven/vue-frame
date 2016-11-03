@@ -10,7 +10,10 @@ const Route=[{
     {
       path:"/chart",
       name:"图表",
-      component:require("./pages/chart.vue")
+      component:require("./pages/chart.vue"),
+      meta:{
+        auth:true
+      }
     },
     {
       path:"/email",
@@ -18,7 +21,12 @@ const Route=[{
       component:require("./pages/about.vue")
     }
   ]
-}
+},
+  {
+    path:"/login",
+    name:"登录",
+    component:require("./pages/login.vue")
+  }
   ];
 
 //const  Route=registerRoute(Navconfig);

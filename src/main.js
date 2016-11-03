@@ -6,6 +6,7 @@ import VueRouter from 'vue-router';
 import until from "./until";
 import Element from 'element-ui';
 import 'element-ui/lib/theme-default/index.css'
+import  Auth from "@websanova/vue-auth";
 Vue.use(Element);
 Vue.use(VueRouter);
 Vue.use(vueResource);
@@ -24,6 +25,10 @@ router.beforeEach((to, from, next) => {
  // console.log(to);
   next();
 });
+Vue.use(Auth,{
+  router: router,
+  http: Vue.http
+});
 //请求拦截器
 Vue.http.interceptors.push((request, next)  => {
 
@@ -34,7 +39,7 @@ Vue.http.interceptors.push((request, next)  => {
     //通过until的方法进行通讯
     const fn=until.onuserGetCallback();
     if(typeof  fn=="function"){
-      fn({mm:"21312"});
+     // fn({mm:"21312"});
     }
   })
 

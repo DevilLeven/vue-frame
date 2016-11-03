@@ -1,12 +1,12 @@
 [
 
   {
-    "path":"/email",
-    "name":"Email",
+    "path":"login",
+    "name":"Login",
     "icon":"el-icon-message"
   },
   {
-    "path":"/chart",
+    "path":"chart",
     "name":"Chart",
     "icon":"el-icon-star-off"
   },{

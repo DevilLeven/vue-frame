@@ -26,6 +26,9 @@
         //  console.log(error)
         })
       }
+    },
+    destroyed(){
+      this.$off("onuser");
     }
   }
 </script>
