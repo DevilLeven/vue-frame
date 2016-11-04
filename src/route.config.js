@@ -1,7 +1,7 @@
 
 
 
-
+import VueRouter from 'vue-router';
 const Route=[{
   path:"/",
   name:"首页",
@@ -12,7 +12,7 @@ const Route=[{
       name:"图表",
       component:require("./pages/chart.vue"),
       meta:{
-        auth:true
+        auth:["chart"]
       }
     },
     {
@@ -28,6 +28,11 @@ const Route=[{
     component:require("./pages/login.vue")
   }
   ];
+const routerOBJ = new VueRouter({
+  mode: 'hash',
+  base: __dirname,
+  routes:Route
+});
 
 //const  Route=registerRoute(Navconfig);
-export default Route;
+export default routerOBJ;

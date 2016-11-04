@@ -53,8 +53,9 @@ app.use(devMiddleware)
 
 // enable hot-reload and state-preserving
 // compilation error display
-app.use(hotMiddleware)
-
+app.use(hotMiddleware);
+var proxy = require('http-proxy-middleware');
+app.use('/SIMS', proxy({target: 'http://192.168.1.102:8080/', changeOrigin: true}));
 // serve pure static assets
 var staticPath = path.posix.join(config.dev.assetsPublicPath, config.dev.assetsSubDirectory)
 app.use(staticPath, express.static('./static'))

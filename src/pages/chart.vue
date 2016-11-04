@@ -86,12 +86,15 @@
     methods: {
       barclick(data){
         console.log(data);
+        console.log(this.$auth.user())
       }
     },
     mounted() {
+
       // simulating async data from server
       this.$refs.bar.showLoading();
       setTimeout(() => {
+
         this.$refs.bar.mergeOptions({
         xAxis: {
           data: asyncData.categories

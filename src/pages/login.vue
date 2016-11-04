@@ -11,14 +11,14 @@
       <div style="text-align: center">
         <el-form :model="from" label-width="80px">
           <el-form-item label="用户名">
-            <el-input v-model="from.name"></el-input>
+            <el-input v-model="from.username"></el-input>
           </el-form-item>
           <el-form-item label="密码">
-            <el-input type="password" v-model="from.pass"></el-input>
+            <el-input type="password" v-model="from.password"></el-input>
           </el-form-item>
           <el-form-item label="验证码">
-            <el-input v-model="from.Vcode" style="width: 62%;float: left"></el-input>
-            <img src="http://www.ecapsmart.com/SIMS/Verify_code.html">
+            <el-input v-model="from.Verifycode" style="width: 62%;float: left"></el-input>
+            <img src="http://192.168.1.102:8080/SIMS/Verify_code.html">
           </el-form-item>
           <el-form-item style="margin-left: -40px">
             <el-button @click="login" type="success" style="width: 90%;margin: 0 auto">登录</el-button>
@@ -36,7 +36,7 @@
 </style>
 <script>
   import Myheader from "./header.vue";
-
+  import route from "../route.config";
   export default{
     components: {
       "my-header":Myheader
@@ -44,25 +44,27 @@
     data(){
       return{
         from:{
-          name:"",
-          pass:"",
-          Vcode:"",
+          username:"",
+          password:"",
+          Verifycode:"",
+          logintype:"PC"
         }
       }
     },
     methods:{
       login(){
-        this.$auth.login({
-          url:"./json",
-          method:"post",
-          makeRequest: true,
-          body: this.from,
-          success: function () {},
-          error: function () {},
-          rememberMe: true,
-          redirect: '/'
 
+        this.$auth.user({
+          userid:"1233",email:"wwww",
+          roles:["admin","chart","about"]
         });
+        console.log(this.$route)
+        //route.push({ path: '/chart' })
+
+        if(this.$auth.check(["chart"])){
+          route.push({ path: '/chart' })
+        }
+
       }
     }
   }
