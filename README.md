@@ -51,3 +51,10 @@ var i, ii, key;
         return false;
     }
 ```
+## 新增element 默认主题编译,可修改该框架的默认主题
+默认主题配置文件src/css/theme-default.scss
+``` bash
+node_modules/.bin/et -c src/css/theme-default.css -o src/css/theme//从新编译主题
+```
+
+增加默认主题修改，Vue文件中css部分外部加载，提高代码可读性，回避less在webstrom中报错

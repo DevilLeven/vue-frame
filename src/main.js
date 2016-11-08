@@ -5,7 +5,7 @@ import router from './route.config.js';
 import VueRouter from 'vue-router';
 import until from "./until";
 import Element from 'element-ui';
-import 'element-ui/lib/theme-default/index.css'
+import './css/theme/index.css';
 import  Auth from "@websanova/vue-auth";
 Vue.use(Element);
 Vue.use(VueRouter);
@@ -15,7 +15,8 @@ Vue.http.options.emulateJSON = true;
 
 
 router.beforeEach((to, from, next) => {
- // console.log(to);
+
+  console.log(from);
   next();
 });
 Vue.use(Auth,{
@@ -32,7 +33,7 @@ Vue.http.interceptors.push((request, next)  => {
   console.log(request);
 //使用es5写法 方便使用this==Vue实例化组件
   next(function (response) {
-    response.body=eval("(" + response.body + ")")
+    response.body=eval("(" + response.body + ")");
     console.log(response);
     //通过until的方法进行通讯
     const fn=until.onuserGetCallback();

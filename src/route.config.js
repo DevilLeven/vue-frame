@@ -25,7 +25,10 @@ const Route=[{
   {
     path:"/login",
     name:"登录",
-    component:require("./pages/login.vue")
+    component:require("./pages/login.vue"),
+    meta:{
+      auth: false
+    }
   }
   ];
 const routerOBJ = new VueRouter({
