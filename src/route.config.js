@@ -29,7 +29,13 @@ const Route=[{
     meta:{
       auth: false
     }
+  },
+  {
+    path:"/404",
+    name:"def",
+    component:require("./pages/about.vue")
   }
+
   ];
 const routerOBJ = new VueRouter({
   mode: 'hash',

@@ -2,12 +2,12 @@
 
   {
     "path":"login",
-    "name":"Login",
+    "name":"登录",
     "icon":"el-icon-message"
   },
   {
     "path":"chart",
-    "name":"Chart",
+    "name":"图表",
     "icon":"el-icon-star-off"
   },{
   "path":"",
@@ -15,8 +15,8 @@
   "icon":"el-icon-menu",
   "children":[
     {
-      "path":"/557",
-      "name":"Email",
+      "path":"/",
+      "name":"首页",
       "icon":"el-icon-message"
     }
   ]

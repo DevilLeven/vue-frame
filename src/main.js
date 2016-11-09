@@ -6,7 +6,8 @@ import VueRouter from 'vue-router';
 import until from "./until";
 import Element from 'element-ui';
 import './css/theme/index.css';
-import  Auth from "@websanova/vue-auth";
+import  Auth from "./modules/vue-auth";
+Vue.config.devtools = true;
 Vue.use(Element);
 Vue.use(VueRouter);
 Vue.use(vueResource);
@@ -27,6 +28,7 @@ new Vue({
   render: h => h(App),
   router
 }).$mount('#app');
+
 //请求拦截器
 Vue.http.interceptors.push((request, next)  => {
 

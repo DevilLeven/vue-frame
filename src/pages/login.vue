@@ -58,11 +58,11 @@
           userid:"1233",email:"wwww",
           roles:["admin","chart","about"]
         });
-        console.log(this.$route)
+       // console.log(this.$route)
         //route.push({ path: '/chart' })
 
         if(this.$auth.check(["chart"])){
-          route.push({ path: '/chart' })
+          route.replace({ path: '/chart' })
         }
 
       }
