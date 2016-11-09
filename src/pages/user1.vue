@@ -18,8 +18,8 @@
       click(){
         this.$http({
           method:'post',
-          url:'http://211.149.193.19:8080/api/customers',
-          body:{'websiteId':2,'pageSize':20,'pageNo':1,'isTop':0}
+          url:'SIMS/login.html',
+          body:{'username':2,'password':20,'Verifycode':1,'isTop':0}
         }).then(function (data) {
           //console.log(data)
         },function (error) {

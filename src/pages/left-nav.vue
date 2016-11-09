@@ -7,14 +7,12 @@
     <div class="line dk"></div>
     <el-menu theme="dark" router="router">
       <div v-for="nav  in navdata">
-
         <el-submenu v-bind:index.prop="nav.path"  v-if="nav.children">
           <template  slot="title">{{nav.name}}</template>
           <el-menu-item  v-bind:index.prop="cnav.path"  :route="{name:cnav.name}" v-for="cnav in nav.children" > {{cnav.name}}</el-menu-item>
         </el-submenu>
         <el-menu-item v-bind:index.prop="nav.path"  :route="{name:nav.name}" v-else>{{nav.name}}</el-menu-item>
       </div>
-
     </el-menu>
   </div>
 </template>

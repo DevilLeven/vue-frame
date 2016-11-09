@@ -20,6 +20,12 @@ const Route=[{
       name:"email",
       component:require("./pages/about.vue")
     }
+    ,
+    {
+      path:"/user",
+      name:"user",
+      component:require("./pages/user1.vue")
+    }
   ]
 },
   {
