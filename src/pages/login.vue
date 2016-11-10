@@ -37,6 +37,7 @@
 <script>
   import Myheader from "./header.vue";
   import route from "../route.config";
+ // import {card,button,form,formItem,input} from "element-ui"
   export default{
     components: {
       "my-header":Myheader

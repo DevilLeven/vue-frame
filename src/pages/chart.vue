@@ -13,6 +13,7 @@
   </div>
 </template>
 <script type="text/ecmascript-6">
+  import {Card} from "element-ui"
   import ECharts from 'vue2-echarts/src/ECharts/ECharts.vue'
   import Vue from 'vue'
   Vue.component('chart', ECharts);
@@ -22,6 +23,10 @@
   };
   var timeout;
   export default {
+    components: {
+      "el-card":Card
+    },
+
     data() {
       let data = []
       for (let i = 0; i <= 360; i++) {
