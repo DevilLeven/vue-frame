@@ -1,61 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81c85b83-2e64-4d07-9f02-69917edfe54f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/notification.vue" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/theme-default.scss" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.babelrc" afterPath="$PROJECT_DIR$/.babelrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/alert.css" afterPath="$PROJECT_DIR$/src/css/theme/alert.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/autocomplete.css" afterPath="$PROJECT_DIR$/src/css/theme/autocomplete.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/badge.css" afterPath="$PROJECT_DIR$/src/css/theme/badge.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/base.css" afterPath="$PROJECT_DIR$/src/css/theme/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/breadcrumb.css" afterPath="$PROJECT_DIR$/src/css/theme/breadcrumb.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/button.css" afterPath="$PROJECT_DIR$/src/css/theme/button.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/card.css" afterPath="$PROJECT_DIR$/src/css/theme/card.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/cascader.css" afterPath="$PROJECT_DIR$/src/css/theme/cascader.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/checkbox.css" afterPath="$PROJECT_DIR$/src/css/theme/checkbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/col.css" afterPath="$PROJECT_DIR$/src/css/theme/col.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/date-picker.css" afterPath="$PROJECT_DIR$/src/css/theme/date-picker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/dialog.css" afterPath="$PROJECT_DIR$/src/css/theme/dialog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/dropdown.css" afterPath="$PROJECT_DIR$/src/css/theme/dropdown.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/form.css" afterPath="$PROJECT_DIR$/src/css/theme/form.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/index.css" afterPath="$PROJECT_DIR$/src/css/theme/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/input-number.css" afterPath="$PROJECT_DIR$/src/css/theme/input-number.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/input.css" afterPath="$PROJECT_DIR$/src/css/theme/input.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/loading.css" afterPath="$PROJECT_DIR$/src/css/theme/loading.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/menu.css" afterPath="$PROJECT_DIR$/src/css/theme/menu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/message-box.css" afterPath="$PROJECT_DIR$/src/css/theme/message-box.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/message.css" afterPath="$PROJECT_DIR$/src/css/theme/message.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/notification.css" afterPath="$PROJECT_DIR$/src/css/theme/notification.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/option-group.css" afterPath="$PROJECT_DIR$/src/css/theme/option-group.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/option.css" afterPath="$PROJECT_DIR$/src/css/theme/option.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/pagination.css" afterPath="$PROJECT_DIR$/src/css/theme/pagination.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/popover.css" afterPath="$PROJECT_DIR$/src/css/theme/popover.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/progress.css" afterPath="$PROJECT_DIR$/src/css/theme/progress.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/radio.css" afterPath="$PROJECT_DIR$/src/css/theme/radio.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/rate.css" afterPath="$PROJECT_DIR$/src/css/theme/rate.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/row.css" afterPath="$PROJECT_DIR$/src/css/theme/row.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/select-dropdown.css" afterPath="$PROJECT_DIR$/src/css/theme/select-dropdown.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/select.css" afterPath="$PROJECT_DIR$/src/css/theme/select.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/slider.css" afterPath="$PROJECT_DIR$/src/css/theme/slider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/spinner.css" afterPath="$PROJECT_DIR$/src/css/theme/spinner.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/step.css" afterPath="$PROJECT_DIR$/src/css/theme/step.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/steps.css" afterPath="$PROJECT_DIR$/src/css/theme/steps.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/switch.css" afterPath="$PROJECT_DIR$/src/css/theme/switch.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/table-column.css" afterPath="$PROJECT_DIR$/src/css/theme/table-column.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/table.css" afterPath="$PROJECT_DIR$/src/css/theme/table.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/tabs.css" afterPath="$PROJECT_DIR$/src/css/theme/tabs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/tag.css" afterPath="$PROJECT_DIR$/src/css/theme/tag.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/time-picker.css" afterPath="$PROJECT_DIR$/src/css/theme/time-picker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/time-select.css" afterPath="$PROJECT_DIR$/src/css/theme/time-select.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/tooltip.css" afterPath="$PROJECT_DIR$/src/css/theme/tooltip.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/tree.css" afterPath="$PROJECT_DIR$/src/css/theme/tree.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/theme/upload.css" afterPath="$PROJECT_DIR$/src/css/theme/upload.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/left-nav.json" afterPath="$PROJECT_DIR$/src/pages/left-nav.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/route.config.js" afterPath="$PROJECT_DIR$/src/route.config.js" />
-    </list>
+    <list default="true" id="81c85b83-2e64-4d07-9f02-69917edfe54f" name="Default" comment="" />
     <ignored path="framwork.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,8 +44,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="399">
+              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -401,12 +347,12 @@
       <workItem from="1478222984673" duration="11325000" />
       <workItem from="1478569029376" duration="10400000" />
       <workItem from="1478654931049" duration="7046000" />
-      <workItem from="1478741606354" duration="5573000" />
+      <workItem from="1478741606354" duration="5631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73566000" />
+    <option name="totallyTimeSpent" value="73624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-537" y="-877" width="1440" height="877" extended-state="6" />
@@ -816,8 +762,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="399">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
           <folding />
         </state>
       </provider>
