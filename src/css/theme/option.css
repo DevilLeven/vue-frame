@@ -104,7 +104,7 @@
 
 .el-select-dropdown__item.selected{
     color: #fff;
-    background-color: #20a0ff
+    background-color: #f60
 }
 
 .el-select-dropdown__item.selected.hover{

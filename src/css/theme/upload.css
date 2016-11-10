@@ -171,7 +171,7 @@
     top: 0;
     height: 100%;
     border-radius: 2px 0 0 2px;
-    background-color: #20a0ff;
+    background-color: #f60;
     text-align: right;
     border-radius: 100px;
     line-height: 1;
@@ -356,7 +356,7 @@
 .el-upload__file.is-finished{}
 
 .el-upload__file.is-finished a:hover{
-    color: #20a0ff;
+    color: #f60;
     cursor: pointer;
 }
 
@@ -376,7 +376,7 @@
     right: 15px;
     top: 0;
     font-size: 12px;
-    color: #20a0ff;
+    color: #f60;
     display: none;
 }
 
@@ -416,12 +416,12 @@
 }
 
 .el-dragger:not(.is-showCover):hover{
-    border-color: #20a0ff;
+    border-color: #f60;
 }
 
 .el-dragger.is-dragOver{
     background-color: rgba(32, 159, 255, .06);
-    border: 2px dashed #20a0ff;
+    border: 2px dashed #f60;
 }
 
 .el-dragger__cover{
@@ -541,6 +541,6 @@
 }
 
 .el-dragger__text em{
-    color: #20a0ff;
+    color: #f60;
     font-style: normal;
 }

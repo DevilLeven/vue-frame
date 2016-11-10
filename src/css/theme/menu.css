@@ -195,7 +195,7 @@
 }
 
 .el-menu--horizontal > .el-menu-item:hover, .el-menu--horizontal > .el-submenu:hover .el-submenu__title, .el-menu--horizontal > .el-submenu.is-active .el-submenu__title{
-  border-bottom: 5px solid #20a0ff;
+  border-bottom: 5px solid #f60;
 }
 
 .el-menu--horizontal.el-menu--dark{}
@@ -213,7 +213,7 @@
 }
 
 .el-menu--horizontal.el-menu--dark .el-submenu .el-menu-item.is-active{
-  color: #20a0ff;
+  color: #f60;
 }
 
 .el-menu-item [class^="el-icon-"]{
@@ -234,7 +234,7 @@
 }
 
 .el-menu-item.is-active{
-  color: #20a0ff;
+  color: #f60;
 }
 
 .el-submenu [class^="el-icon-"]{
@@ -261,7 +261,7 @@
 }
 
 .el-submenu.is-active .el-submenu__title{
-  border-bottom-color: #20a0ff;
+  border-bottom-color: #f60;
 }
 
 .el-submenu__title{

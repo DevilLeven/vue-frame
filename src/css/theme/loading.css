@@ -90,7 +90,7 @@
 }
 
 .el-loading-spinner .el-loading-text {
-  color: #20a0ff;
+  color: #f60;
   margin: 3px 0;
   font-size: 14px;
 }
@@ -104,7 +104,7 @@
   stroke-dasharray: 1, 100;
   stroke-dashoffset: 0;
   stroke-width: 2;
-  stroke: #20a0ff;
+  stroke: #f60;
   animation: dash 1.5s ease-in-out infinite;
   stroke-linecap: round;
 }

@@ -324,7 +324,7 @@
 }
 .el-date-editor__editor:focus, .el-date-editor:hover > .el-date-editor__editor, .el-date-editor.is-active > .el-date-editor__editor {
     outline: none;
-    border-color: #20a0ff;
+    border-color: #f60;
 }
 .el-date-editor .el-date-editor__clear {
     display: none;

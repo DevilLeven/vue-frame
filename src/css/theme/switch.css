@@ -153,8 +153,8 @@
 .el-switch__input{}
 
 .el-switch__input:checked + .el-switch__core{
-    border-color: #20a0ff;
-    background-color: #20a0ff
+    border-color: #f60;
+    background-color: #f60
 }
 
 .el-switch__core{

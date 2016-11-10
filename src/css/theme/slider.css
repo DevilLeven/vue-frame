@@ -113,7 +113,7 @@
 }
 .el-input.is-active .el-input__inner{
     outline: none;
-    border-color: #20a0ff;
+    border-color: #f60;
 }
 .el-input__inner{
     display: block;
@@ -148,7 +148,7 @@
 }
 .el-input__inner:focus{
     outline: none;
-    border-color: #20a0ff;
+    border-color: #f60;
 }
 .el-input__icon{
     position: absolute;
@@ -292,7 +292,7 @@
 }
 .el-textarea__inner:focus{
     outline: none;
-    border-color: #20a0ff;
+    border-color: #f60;
 }
 :root{
     /* Transition
@@ -408,7 +408,7 @@
     position: absolute;
 }
 .el-input-number__increase:hover, .el-input-number__decrease:hover{
-    color: #20a0ff;
+    color: #f60;
 }
 .el-input-number__increase.is-disabled, .el-input-number__decrease.is-disabled{
     color: #D3DCE6;
@@ -790,7 +790,7 @@
 
 .el-slider__bar{
     height: 4px;
-    background-color: #20a0ff;
+    background-color: #f60;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     position: absolute;
@@ -838,7 +838,7 @@
 .el-slider__button{
     width: 12px;
     height: 12px;
-    background-color: #20a0ff;
+    background-color: #f60;
     border-radius: 50%;
     transition: .2s;
 }

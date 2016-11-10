@@ -177,7 +177,7 @@
 }
 .el-select-dropdown.is-multiple{}
 .el-select-dropdown.is-multiple .el-select-dropdown__item.selected{
-    color: #20a0ff;
+    color: #f60;
     background-color: #fff;
 }
 .el-select-dropdown.is-multiple .el-select-dropdown__item.selected.hover{
@@ -315,7 +315,7 @@
 }
 .el-input.is-active .el-input__inner{
     outline: none;
-    border-color: #20a0ff;
+    border-color: #f60;
 }
 .el-input__inner{
     display: block;
@@ -350,7 +350,7 @@
 }
 .el-input__inner:focus{
     outline: none;
-    border-color: #20a0ff;
+    border-color: #f60;
 }
 .el-input__icon{
     position: absolute;
@@ -494,7 +494,7 @@
 }
 .el-textarea__inner:focus{
     outline: none;
-    border-color: #20a0ff;
+    border-color: #f60;
 }
 @charset "UTF-8";
 :root{
@@ -609,7 +609,7 @@
     color: #8492a6;
 }
 .el-tag.is-hit{
-    border-color: #20a0ff;
+    border-color: #f60;
 }
 .el-tag--gray{
     background-color: #e5e9f2;
@@ -623,10 +623,10 @@
 .el-tag--primary{
     background-color: rgba(32,159,255,0.10);
     border-color: rgba(32,159,255,0.20);
-    color: #20a0ff;
+    color: #f60;
 }
 .el-tag--primary .el-tag__close:hover{
-    background-color: #20a0ff;
+    background-color: #f60;
     color: #fff;
 }
 .el-tag--success{
@@ -758,7 +758,7 @@
 }
 .el-select-dropdown__item.selected{
     color: #fff;
-    background-color: #20a0ff;
+    background-color: #f60;
 }
 .el-select-dropdown__item.selected.hover{
     background-color: #1D8CE0;
@@ -976,7 +976,7 @@
     font-size: 14px;
     border-radius: 4px;
     color: #fff;
-    background-color: #20a0ff;
+    background-color: #f60;
 }
 .el-select__tag .el-icon-close{
     font-size: 12px;
@@ -1100,7 +1100,7 @@
 }
 
 .el-pagination button:hover{
-    color: #20a0ff;
+    color: #f60;
 }
 
 .el-pagination button.disabled{
@@ -1159,7 +1159,7 @@
 }
 
 .el-pagination__sizes .el-input .el-input__inner:hover{
-    border-color: #20a0ff;
+    border-color: #f60;
 }
 
 .el-pagination__jump{
@@ -1193,7 +1193,7 @@
 
 .el-pagination__editor:focus{
     outline: none;
-    border-color: #20a0ff;
+    border-color: #f60;
 }
 
 .el-pager{
@@ -1247,12 +1247,12 @@
 }
 
 .el-pager li:hover{
-    color: #20a0ff;
+    color: #f60;
 }
 
 .el-pager li.active{
-    border-color: #20a0ff;
-    background-color: #20a0ff;
+    border-color: #f60;
+    background-color: #f60;
     color: #fff;
     cursor: default;
 }

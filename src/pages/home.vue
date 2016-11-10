@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div>
 
 
     <div class="leftnav">
@@ -7,10 +7,12 @@
     </div>
     <div class="content">
       <div class="c-header">
-        <my-header ></my-header>
+        <my-header></my-header>
       </div>
       <div class="content-bottom">
-        <router-view></router-view>
+        <transition name="pageInUp">
+          <router-view></router-view>
+        </transition>
       </div>
     </div>
   </div>
@@ -24,7 +26,7 @@
     name: 'home',
     components: {
       left,
-      "my-header":Myheader
+      "my-header": Myheader
     },
     created(){
 
@@ -33,5 +35,6 @@
 </script>
 
 <style lang="less">
-@import "../css/home.scss";
+  @import "../css/home.scss";
+
 </style>
