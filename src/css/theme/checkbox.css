@@ -78,6 +78,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 
 .el-checkbox{
@@ -120,7 +122,7 @@
 }
 
 .el-checkbox__inner:not(.is-disabled):hover{
-    border-color: #f60
+    border-color: #20a0ff
 }
 
 .el-checkbox__inner::after{
@@ -157,7 +159,7 @@
 }
 
 .el-checkbox__inner.is-indeterminate{
-    background-color: #f60;
+    background-color: #20a0ff;
     border-color: #2e90fe
 }
 
@@ -177,11 +179,11 @@
 }
 
 .el-checkbox__inner.is-focus{
-    border-color: #f60
+    border-color: #20a0ff
 }
 
 .el-checkbox__inner.is-checked{
-    background-color: #f60;
+    background-color: #20a0ff;
     border-color: #2e90fe
 }
 

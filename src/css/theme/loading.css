@@ -1,44 +1,139 @@
+@charset "UTF-8";
+:root{
+  /* Transition
+  -------------------------- */
+  /* Colors
+  -------------------------- */
+  /* Link
+  -------------------------- */
+  /* Border
+  -------------------------- */
+  /* Box-shadow
+  -------------------------- */
+  /* Fill
+  -------------------------- */
+  /* Font
+  -------------------------- */
+  /* Size
+  -------------------------- */
+  /* z-index
+  -------------------------- */
+  /* Disable base
+  -------------------------- */
+  /* Icon
+  -------------------------- */
+  /* Checkbox
+  -------------------------- */
+  /* Radio
+  -------------------------- */
+  /* Select
+  -------------------------- */
+  /* Alert
+  -------------------------- */
+  /* Message Box
+  -------------------------- */
+  /* Message
+  -------------------------- */
+  /* Notification
+  -------------------------- */
+  /* Input
+  -------------------------- */
+  /* Cascader
+  -------------------------- */
+  /* Group
+  -------------------------- */
+  /* Tab
+  -------------------------- */
+  /* Button
+  -------------------------- */
+  /* cascader
+  -------------------------- */
+  /* Switch
+ -------------------------- */
+  /* Dialog
+ -------------------------- */
+  /* Table
+ -------------------------- */
+  /* Pagination
+ -------------------------- */
+  /* Popover
+ -------------------------- */
+  /* Tooltip
+  -------------------------- */
+  /* Tag
+  -------------------------- */
+  /* Dropdown
+  -------------------------- */
+  /* Badge
+  -------------------------- */
+  /* Card
+  --------------------------*/
+  /* Slider
+  --------------------------*/
+  /* Steps
+  --------------------------*/
+  /* Steps
+  --------------------------*/
+  /* Rate
+  --------------------------*/
+  /* DatePicker
+  --------------------------*/
+  /* Loading
+  --------------------------*/
+}
+
 .el-loading-spinner {
-  height: 12px;
-  width: 60px;
   top: 50%;
-  left: 50%;
-  font-size: 0;
+  margin-top: -21px;
+  width: 100%;
   text-align: center;
-  margin-top: -6px;
-  margin-left: -30px;
-  z-index: 10001;
 }
 
-.el-loading-bubble {
-  height: 12px;
-  width: 12px;
-  background-color: #fff;
-  margin: 0 3px;
-  border-radius: 50%;
-  display: inline-block;
-  animation: 1s cubic-bezier(.2,.68,.18,1.08) infinite both bubble-pulse;
+.el-loading-spinner .el-loading-text {
+  color: #20a0ff;
+  margin: 3px 0;
+  font-size: 14px;
 }
 
-.el-loading-bubble.bubble1 {
-  animation-delay: .16s;
+.el-loading-spinner .circular {
+  width: 42px;
+  animation: rotate 2s linear infinite;
 }
 
-.el-loading-bubble.bubble2 {
-  animation-delay: .32s;
+.el-loading-spinner .path {
+  stroke-dasharray: 1, 100;
+  stroke-dashoffset: 0;
+  stroke-width: 2;
+  stroke: #20a0ff;
+  animation: dash 1.5s ease-in-out infinite;
+  stroke-linecap: round;
 }
 
-.el-loading-bubble.bubble3 {
-  animation-delay: .48s;
+.el-loading-spinner.is-full-screen{
+  margin-top: -25px;
 }
 
-@keyframes bubble-pulse {
-  0%, 80% {
-    transform: scale(1);
-    opacity: 1;
+.el-loading-spinner.is-full-screen .circular{
+  width: 50px;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
   }
-  45% {
-    transform: scale(0);
-    opacity: 0;
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 100;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 45, 100;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dasharray: 45, 100;
+    stroke-dashoffset: -124px;
   }
 }

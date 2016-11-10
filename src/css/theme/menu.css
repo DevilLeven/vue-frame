@@ -84,6 +84,8 @@
   --------------------------*/
   /* DatePicker
   --------------------------*/
+  /* Loading
+  --------------------------*/
 }
 
 .el-menu-item, .el-submenu__title{
@@ -193,7 +195,7 @@
 }
 
 .el-menu--horizontal > .el-menu-item:hover, .el-menu--horizontal > .el-submenu:hover .el-submenu__title, .el-menu--horizontal > .el-submenu.is-active .el-submenu__title{
-  border-bottom: 5px solid #f60;
+  border-bottom: 5px solid #20a0ff;
 }
 
 .el-menu--horizontal.el-menu--dark{}
@@ -211,7 +213,7 @@
 }
 
 .el-menu--horizontal.el-menu--dark .el-submenu .el-menu-item.is-active{
-  color: #f60;
+  color: #20a0ff;
 }
 
 .el-menu-item [class^="el-icon-"]{
@@ -232,7 +234,7 @@
 }
 
 .el-menu-item.is-active{
-  color: #f60;
+  color: #20a0ff;
 }
 
 .el-submenu [class^="el-icon-"]{
@@ -259,7 +261,7 @@
 }
 
 .el-submenu.is-active .el-submenu__title{
-  border-bottom-color: #f60;
+  border-bottom-color: #20a0ff;
 }
 
 .el-submenu__title{

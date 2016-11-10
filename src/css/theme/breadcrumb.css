@@ -78,6 +78,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 
 .el-breadcrumb{
@@ -122,6 +124,6 @@
 }
 
 .el-breadcrumb__item__inner:hover, .el-breadcrumb__item__inner a:hover{
-    color: #f60;
+    color: #20a0ff;
     cursor: pointer
 }

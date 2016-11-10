@@ -9,6 +9,11 @@
     "path":"chart",
     "name":"图表",
     "icon":"el-icon-star-off"
+  },
+  {
+    "path":"notification",
+    "name":"notification",
+    "icon":"el-icon-star-off"
   },{
   "path":"",
   "name":"Dashboard",

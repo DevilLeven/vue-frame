@@ -26,6 +26,12 @@ const Route=[{
       name:"user",
       component:require("./pages/user1.vue")
     }
+    ,
+    {
+      path:"/notification",
+      name:"notification",
+      component:require("./pages/notification.vue")
+    }
   ]
 },
   {

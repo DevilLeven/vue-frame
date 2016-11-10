@@ -78,6 +78,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .fade-in-linear-enter-active, .fade-in-linear-leave-active {
     transition: opacity 200ms linear

@@ -79,6 +79,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-input{
     position: relative;
@@ -104,7 +106,7 @@
 }
 .el-input.is-active .el-input__inner{
     outline: none;
-    border-color: #f60
+    border-color: #20a0ff
 }
 .el-input__inner{
     display: block;
@@ -119,6 +121,7 @@
     border-radius: 4px;
     transition: border-color .2s cubic-bezier(.645,.045,.355,1);
     outline: none;
+    font-size: inherit;
     line-height: normal
 }
 .el-input__inner::-webkit-input-placeholder{
@@ -138,7 +141,7 @@
 }
 .el-input__inner:focus{
     outline: none;
-    border-color: #f60
+    border-color: #20a0ff
 }
 .el-input__icon{
     position: absolute;
@@ -282,7 +285,7 @@
 }
 .el-textarea__inner:focus{
     outline: none;
-    border-color: #f60
+    border-color: #20a0ff
 }
 :root{
     /* Transition
@@ -363,6 +366,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 
 .el-input-number{
@@ -402,7 +407,7 @@
 }
 
 .el-input-number__increase:hover, .el-input-number__decrease:hover{
-    color: #f60
+    color: #20a0ff
 }
 
 .el-input-number__increase.is-disabled, .el-input-number__decrease.is-disabled{

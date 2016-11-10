@@ -78,6 +78,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .v-modal-enter{
     animation: v-modal-in .2s ease;
@@ -154,7 +156,7 @@
 }
 
 .el-dialog__close:hover{
-    color: #f60;
+    color: #20a0ff;
 }
 
 .el-dialog__title{

@@ -78,6 +78,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 
 .el-select-dropdown{
@@ -94,7 +96,7 @@
 .el-select-dropdown.is-multiple{}
 
 .el-select-dropdown.is-multiple .el-select-dropdown__item.selected{
-    color: #f60;
+    color: #20a0ff;
     background-color: #fff
 }
 

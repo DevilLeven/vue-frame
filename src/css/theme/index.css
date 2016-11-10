@@ -126,6 +126,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .fade-in-linear-enter-active, .fade-in-linear-leave-active {
     transition: opacity 200ms linear;
@@ -443,6 +445,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-button {
     display: inline-block;
@@ -468,12 +472,12 @@
     margin-left: 10px;
 }
 .el-button:hover {
-    color: #f60;
-    border-color: #f60;
+    color: #20a0ff;
+    border-color: #20a0ff;
 }
 .el-button:active {
-    color: rgb(230, 92, 0);
-    border-color: rgb(230, 92, 0);
+    color: rgb(29, 144, 230);
+    border-color: rgb(29, 144, 230);
     outline: none;
 }
 .el-button::-moz-focus-inner {
@@ -516,40 +520,40 @@
     color: #C0CCDA;
 }
 .el-button.is-active {
-    color: rgb(230, 92, 0);
-    border-color: rgb(230, 92, 0);
+    color: rgb(29, 144, 230);
+    border-color: rgb(29, 144, 230);
 }
 .el-button.is-plain {}
 .el-button.is-plain:hover {
     background: #fff;
-    border-color: #f60;
-    color: #f60;
+    border-color: #20a0ff;
+    color: #20a0ff;
 }
 .el-button.is-plain:active {
     background: #fff;
-    border-color: rgb(230, 92, 0);
-    color: rgb(230, 92, 0);
+    border-color: rgb(29, 144, 230);
+    color: rgb(29, 144, 230);
     outline: none;
 }
 .el-button--primary {
     color: #fff;
-    background-color: #f60;
-    border-color: #f60;
+    background-color: #20a0ff;
+    border-color: #20a0ff;
 }
 .el-button--primary:hover {
-    background: rgb(255, 133, 51);
-    border-color: rgb(255, 133, 51);
+    background: rgb(77, 179, 255);
+    border-color: rgb(77, 179, 255);
     color: #fff;
 }
 .el-button--primary:active {
-    background: rgb(230, 92, 0);
-    border-color: rgb(230, 92, 0);
+    background: rgb(29, 144, 230);
+    border-color: rgb(29, 144, 230);
     color: #fff;
     outline: none;
 }
 .el-button--primary.is-active {
-    background: rgb(230, 92, 0);
-    border-color: rgb(230, 92, 0);
+    background: rgb(29, 144, 230);
+    border-color: rgb(29, 144, 230);
     color: #fff;
 }
 .el-button--primary.is-plain {
@@ -559,13 +563,13 @@
 }
 .el-button--primary.is-plain:hover {
     background: #fff;
-    border-color: #f60;
-    color: #f60;
+    border-color: #20a0ff;
+    color: #20a0ff;
 }
 .el-button--primary.is-plain:active {
     background: #fff;
-    border-color: rgb(230, 92, 0);
-    color: rgb(230, 92, 0);
+    border-color: rgb(29, 144, 230);
+    color: rgb(29, 144, 230);
     outline: none;
 }
 .el-button--success {
@@ -733,16 +737,16 @@
 }
 .el-button--text {
     border: none;
-    color: #f60;
+    color: #20a0ff;
     background: transparent;
     padding-left: 0;
     padding-right: 0;
 }
 .el-button--text:hover {
-    color: rgb(255, 133, 51);
+    color: rgb(77, 179, 255);
 }
 .el-button--text:active {
-    color: rgb(230, 92, 0);
+    color: rgb(29, 144, 230);
 }
 .el-button-group {
     display: inline-block;
@@ -909,6 +913,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-input {
     position: relative;
@@ -934,7 +940,7 @@
 }
 .el-input.is-active .el-input__inner {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-input__inner {
     display: block;
@@ -949,6 +955,7 @@
     border-radius: 4px;
     transition: border-color .2s cubic-bezier(.645,.045,.355,1);
     outline: none;
+    font-size: inherit;
     line-height: normal;
 }
 .el-input__inner::-webkit-input-placeholder {
@@ -968,7 +975,7 @@
 }
 .el-input__inner:focus {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-input__icon {
     position: absolute;
@@ -1112,7 +1119,7 @@
 }
 .el-textarea__inner:focus {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 @charset "UTF-8";
 :root {
@@ -1194,6 +1201,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 @charset "UTF-8";
 :root {
@@ -1274,6 +1283,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-select-dropdown {
@@ -1288,7 +1299,7 @@
 }
 .el-select-dropdown.is-multiple {}
 .el-select-dropdown.is-multiple .el-select-dropdown__item.selected {
-    color: #f60;
+    color: #20a0ff;
     background-color: #fff;
 }
 .el-select-dropdown.is-multiple .el-select-dropdown__item.selected.hover {
@@ -1399,6 +1410,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-input {
     position: relative;
@@ -1424,7 +1437,7 @@
 }
 .el-input.is-active .el-input__inner {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-input__inner {
     display: block;
@@ -1439,6 +1452,7 @@
     border-radius: 4px;
     transition: border-color .2s cubic-bezier(.645,.045,.355,1);
     outline: none;
+    font-size: inherit;
     line-height: normal;
 }
 .el-input__inner::-webkit-input-placeholder {
@@ -1458,7 +1472,7 @@
 }
 .el-input__inner:focus {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-input__icon {
     position: absolute;
@@ -1602,7 +1616,7 @@
 }
 .el-textarea__inner:focus {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 @charset "UTF-8";
 :root {
@@ -1683,6 +1697,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-tag {
@@ -1842,6 +1858,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-select-dropdown {}
 .el-select-dropdown__item {
@@ -1862,7 +1880,7 @@
 }
 .el-select-dropdown__item.selected {
     color: #fff;
-    background-color: #f60;
+    background-color: #20a0ff;
 }
 .el-select-dropdown__item.selected.hover {
     background-color: #1D8CE0;
@@ -1957,6 +1975,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-select-group {
     margin: 0;
@@ -1984,6 +2004,12 @@
 .el-select:hover .el-input__inner {
     border-color: #8492a6;
 }
+.el-select .el-input__inner {
+    cursor: pointer;
+}
+.el-select .el-input__inner:focus {
+    border-color: #2ea0ff;
+}
 .el-select .el-input {}
 .el-select .el-input .el-input__icon {
     color: #C0CCDA;
@@ -2010,12 +2036,6 @@
 }
 .el-select .el-input .el-input__icon.is-reverse {
     transform: translateY(-50%);
-}
-.el-select .el-input .el-input__inner {
-    cursor: pointer;
-}
-.el-select .el-input .el-input__inner:focus {
-    border-color: #2ea0ff;
 }
 .el-select .el-input.is-disabled {}
 .el-select .el-input.is-disabled .el-input__inner {
@@ -2078,7 +2098,7 @@
     font-size: 14px;
     border-radius: 4px;
     color: #fff;
-    background-color: #f60;
+    background-color: #20a0ff;
 }
 .el-select__tag .el-icon-close {
     font-size: 12px;
@@ -2162,6 +2182,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-alert {
@@ -2314,6 +2336,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-notification {
     width: 330px;
@@ -2459,6 +2483,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-input {
     position: relative;
@@ -2484,7 +2510,7 @@
 }
 .el-input.is-active .el-input__inner {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-input__inner {
     display: block;
@@ -2499,6 +2525,7 @@
     border-radius: 4px;
     transition: border-color .2s cubic-bezier(.645,.045,.355,1);
     outline: none;
+    font-size: inherit;
     line-height: normal;
 }
 .el-input__inner::-webkit-input-placeholder {
@@ -2518,7 +2545,7 @@
 }
 .el-input__inner:focus {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-input__icon {
     position: absolute;
@@ -2662,7 +2689,7 @@
 }
 .el-textarea__inner:focus {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 :root {
     /* Transition
@@ -2743,6 +2770,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-input-number {
     display: inline-block;
@@ -2776,7 +2805,7 @@
     position: absolute;
 }
 .el-input-number__increase:hover, .el-input-number__decrease:hover {
-    color: #f60;
+    color: #20a0ff;
 }
 .el-input-number__increase.is-disabled, .el-input-number__decrease.is-disabled {
     color: #D3DCE6;
@@ -2895,6 +2924,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-tooltip {
@@ -3095,6 +3126,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-slider {}
 .el-slider:before, .el-slider:after {
@@ -3147,7 +3180,7 @@
 }
 .el-slider__bar {
     height: 4px;
-    background-color: #f60;
+    background-color: #20a0ff;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     position: absolute;
@@ -3188,7 +3221,7 @@
 .el-slider__button {
     width: 12px;
     height: 12px;
-    background-color: #f60;
+    background-color: #20a0ff;
     border-radius: 50%;
     transition: .2s;
 }
@@ -3292,6 +3325,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-checkbox {
     color: #1f2d3d;
@@ -3329,7 +3364,7 @@
                   background-color .25s cubic-bezier(.71,-.46,.29,1.46);
 }
 .el-checkbox__inner:not(.is-disabled):hover {
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-checkbox__inner::after {
     content: "";
@@ -3360,7 +3395,7 @@
     border-color: #fff;
 }
 .el-checkbox__inner.is-indeterminate {
-    background-color: #f60;
+    background-color: #20a0ff;
     border-color: #2e90fe;
 }
 .el-checkbox__inner.is-indeterminate::before {
@@ -3377,10 +3412,10 @@
     display: none;
 }
 .el-checkbox__inner.is-focus {
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-checkbox__inner.is-checked {
-    background-color: #f60;
+    background-color: #20a0ff;
     border-color: #2e90fe;
 }
 .el-checkbox__inner.is-checked::after {
@@ -3489,6 +3524,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-radio {
     color: #1f2d3d;
@@ -3525,7 +3562,7 @@
     box-sizing: border-box;
 }
 .el-radio__inner:not(.is-disabled):hover {
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-radio__inner::after {
     width: 6px;
@@ -3547,11 +3584,11 @@
     background-color: #fff;
 }
 .el-radio__inner.is-focus {
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-radio__inner.is-checked {
-    border-color: #f60;
-    background: #f60;
+    border-color: #20a0ff;
+    background: #20a0ff;
 }
 .el-radio__inner.is-checked::after {
     transform: translate(-50%, -50%) scale(1);
@@ -3586,6 +3623,7 @@
 .el-radio-group {
     display: inline-block;
     font-size: 0;
+    line-height: 1;
 }
 .el-radio-group .el-radio {
     font-size: 14px;
@@ -3629,7 +3667,7 @@
     border-radius: 0;
 }
 .el-radio-button__inner:hover {
-    color: #f60;
+    color: #20a0ff;
 }
 .el-radio-button__inner [class*="el-icon-"] {
     line-height: 0.9;
@@ -3647,8 +3685,8 @@
 .el-radio-button__orig-radio:checked {}
 .el-radio-button__orig-radio:checked + .el-radio-button__inner {
     z-index: 1;
-    color: #f60;
-    border-color: #f60;
+    color: #20a0ff;
+    border-color: #20a0ff;
 }
 .el-radio-button__orig-radio:disabled {}
 .el-radio-button__orig-radio:disabled + .el-radio-button__inner {
@@ -3755,6 +3793,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-switch {
@@ -3931,6 +3971,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 @charset "UTF-8";
 :root {
@@ -4012,6 +4054,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-button {
     display: inline-block;
@@ -4037,12 +4081,12 @@
     margin-left: 10px;
 }
 .el-button:hover {
-    color: #f60;
-    border-color: #f60;
+    color: #20a0ff;
+    border-color: #20a0ff;
 }
 .el-button:active {
-    color: rgb(230, 92, 0);
-    border-color: rgb(230, 92, 0);
+    color: rgb(29, 144, 230);
+    border-color: rgb(29, 144, 230);
     outline: none;
 }
 .el-button::-moz-focus-inner {
@@ -4085,40 +4129,40 @@
     color: #C0CCDA;
 }
 .el-button.is-active {
-    color: rgb(230, 92, 0);
-    border-color: rgb(230, 92, 0);
+    color: rgb(29, 144, 230);
+    border-color: rgb(29, 144, 230);
 }
 .el-button.is-plain {}
 .el-button.is-plain:hover {
     background: #fff;
-    border-color: #f60;
-    color: #f60;
+    border-color: #20a0ff;
+    color: #20a0ff;
 }
 .el-button.is-plain:active {
     background: #fff;
-    border-color: rgb(230, 92, 0);
-    color: rgb(230, 92, 0);
+    border-color: rgb(29, 144, 230);
+    color: rgb(29, 144, 230);
     outline: none;
 }
 .el-button--primary {
     color: #fff;
-    background-color: #f60;
-    border-color: #f60;
+    background-color: #20a0ff;
+    border-color: #20a0ff;
 }
 .el-button--primary:hover {
-    background: rgb(255, 133, 51);
-    border-color: rgb(255, 133, 51);
+    background: rgb(77, 179, 255);
+    border-color: rgb(77, 179, 255);
     color: #fff;
 }
 .el-button--primary:active {
-    background: rgb(230, 92, 0);
-    border-color: rgb(230, 92, 0);
+    background: rgb(29, 144, 230);
+    border-color: rgb(29, 144, 230);
     color: #fff;
     outline: none;
 }
 .el-button--primary.is-active {
-    background: rgb(230, 92, 0);
-    border-color: rgb(230, 92, 0);
+    background: rgb(29, 144, 230);
+    border-color: rgb(29, 144, 230);
     color: #fff;
 }
 .el-button--primary.is-plain {
@@ -4128,13 +4172,13 @@
 }
 .el-button--primary.is-plain:hover {
     background: #fff;
-    border-color: #f60;
-    color: #f60;
+    border-color: #20a0ff;
+    color: #20a0ff;
 }
 .el-button--primary.is-plain:active {
     background: #fff;
-    border-color: rgb(230, 92, 0);
-    color: rgb(230, 92, 0);
+    border-color: rgb(29, 144, 230);
+    color: rgb(29, 144, 230);
     outline: none;
 }
 .el-button--success {
@@ -4302,16 +4346,16 @@
 }
 .el-button--text {
     border: none;
-    color: #f60;
+    color: #20a0ff;
     background: transparent;
     padding-left: 0;
     padding-right: 0;
 }
 .el-button--text:hover {
-    color: rgb(255, 133, 51);
+    color: rgb(77, 179, 255);
 }
 .el-button--text:active {
-    color: rgb(230, 92, 0);
+    color: rgb(29, 144, 230);
 }
 .el-button-group {
     display: inline-block;
@@ -4458,43 +4502,135 @@
     margin: 0 -10px;
     background-color: #fff;
 }
+@charset "UTF-8";
+:root {
+    /* Transition
+  -------------------------- */
+    /* Colors
+  -------------------------- */
+    /* Link
+  -------------------------- */
+    /* Border
+  -------------------------- */
+    /* Box-shadow
+  -------------------------- */
+    /* Fill
+  -------------------------- */
+    /* Font
+  -------------------------- */
+    /* Size
+  -------------------------- */
+    /* z-index
+  -------------------------- */
+    /* Disable base
+  -------------------------- */
+    /* Icon
+  -------------------------- */
+    /* Checkbox
+  -------------------------- */
+    /* Radio
+  -------------------------- */
+    /* Select
+  -------------------------- */
+    /* Alert
+  -------------------------- */
+    /* Message Box
+  -------------------------- */
+    /* Message
+  -------------------------- */
+    /* Notification
+  -------------------------- */
+    /* Input
+  -------------------------- */
+    /* Cascader
+  -------------------------- */
+    /* Group
+  -------------------------- */
+    /* Tab
+  -------------------------- */
+    /* Button
+  -------------------------- */
+    /* cascader
+  -------------------------- */
+    /* Switch
+ -------------------------- */
+    /* Dialog
+ -------------------------- */
+    /* Table
+ -------------------------- */
+    /* Pagination
+ -------------------------- */
+    /* Popover
+ -------------------------- */
+    /* Tooltip
+  -------------------------- */
+    /* Tag
+  -------------------------- */
+    /* Dropdown
+  -------------------------- */
+    /* Badge
+  -------------------------- */
+    /* Card
+  --------------------------*/
+    /* Slider
+  --------------------------*/
+    /* Steps
+  --------------------------*/
+    /* Steps
+  --------------------------*/
+    /* Rate
+  --------------------------*/
+    /* DatePicker
+  --------------------------*/
+    /* Loading
+  --------------------------*/
+}
 .el-loading-spinner {
-    height: 12px;
-    width: 60px;
     top: 50%;
-    left: 50%;
-    font-size: 0;
+    margin-top: -21px;
+    width: 100%;
     text-align: center;
-    margin-top: -6px;
-    margin-left: -30px;
-    z-index: 10001;
 }
-.el-loading-bubble {
-    height: 12px;
-    width: 12px;
-    background-color: #fff;
-    margin: 0 3px;
-    border-radius: 50%;
-    display: inline-block;
-    animation: 1s cubic-bezier(.2,.68,.18,1.08) infinite both bubble-pulse;
+.el-loading-spinner .el-loading-text {
+    color: #20a0ff;
+    margin: 3px 0;
+    font-size: 14px;
 }
-.el-loading-bubble.bubble1 {
-    animation-delay: .16s;
+.el-loading-spinner .circular {
+    width: 42px;
+    animation: rotate 2s linear infinite;
 }
-.el-loading-bubble.bubble2 {
-    animation-delay: .32s;
+.el-loading-spinner .path {
+    stroke-dasharray: 1, 100;
+    stroke-dashoffset: 0;
+    stroke-width: 2;
+    stroke: #20a0ff;
+    animation: dash 1.5s ease-in-out infinite;
+    stroke-linecap: round;
 }
-.el-loading-bubble.bubble3 {
-    animation-delay: .48s;
+.el-loading-spinner.is-full-screen {
+    margin-top: -25px;
 }
-@keyframes bubble-pulse {
-    0%, 80% {
-        transform: scale(1);
-        opacity: 1;
+.el-loading-spinner.is-full-screen .circular {
+    width: 50px;
+}
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
     }
-    45% {
-        transform: scale(0);
-        opacity: 0;
+}
+@keyframes dash {
+    0% {
+        stroke-dasharray: 1, 100;
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dasharray: 45, 100;
+        stroke-dashoffset: -35px;
+    }
+    100% {
+        stroke-dasharray: 45, 100;
+        stroke-dashoffset: -124px;
     }
 }
 @charset "UTF-8";
@@ -4577,6 +4713,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .v-modal-enter {
     animation: v-modal-in .2s ease;
@@ -4644,7 +4782,7 @@
     color: #C0CCDA;
 }
 .el-dialog__close:hover {
-    color: #f60;
+    color: #20a0ff;
 }
 .el-dialog__title {
     line-height: 1;
@@ -4772,6 +4910,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-checkbox {
     color: #1f2d3d;
@@ -4809,7 +4949,7 @@
                   background-color .25s cubic-bezier(.71,-.46,.29,1.46);
 }
 .el-checkbox__inner:not(.is-disabled):hover {
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-checkbox__inner::after {
     content: "";
@@ -4840,7 +4980,7 @@
     border-color: #fff;
 }
 .el-checkbox__inner.is-indeterminate {
-    background-color: #f60;
+    background-color: #20a0ff;
     border-color: #2e90fe;
 }
 .el-checkbox__inner.is-indeterminate::before {
@@ -4857,10 +4997,10 @@
     display: none;
 }
 .el-checkbox__inner.is-focus {
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-checkbox__inner.is-checked {
-    background-color: #f60;
+    background-color: #20a0ff;
     border-color: #2e90fe;
 }
 .el-checkbox__inner.is-checked::after {
@@ -4968,6 +5108,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-tag {
@@ -5125,6 +5267,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-table {
@@ -5389,10 +5533,10 @@
 }
 .el-table--striped {}
 .el-table--striped .el-table__body {}
-.el-table--striped .el-table__body tr:nth-child(2n) {
+.el-table--striped .el-table__body tr:nth-child(2n) td {
     background: #FAFAFA;
 }
-.el-table--striped .el-table__body tr:nth-child(2n).current-row {
+.el-table--striped .el-table__body tr:nth-child(2n).current-row td {
     background: #EFF7FF;
 }
 .el-table__body td {
@@ -5503,6 +5647,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-checkbox {
     color: #1f2d3d;
@@ -5540,7 +5686,7 @@
                   background-color .25s cubic-bezier(.71,-.46,.29,1.46);
 }
 .el-checkbox__inner:not(.is-disabled):hover {
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-checkbox__inner::after {
     content: "";
@@ -5571,7 +5717,7 @@
     border-color: #fff;
 }
 .el-checkbox__inner.is-indeterminate {
-    background-color: #f60;
+    background-color: #20a0ff;
     border-color: #2e90fe;
 }
 .el-checkbox__inner.is-indeterminate::before {
@@ -5588,10 +5734,10 @@
     display: none;
 }
 .el-checkbox__inner.is-focus {
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-checkbox__inner.is-checked {
-    background-color: #f60;
+    background-color: #20a0ff;
     border-color: #2e90fe;
 }
 .el-checkbox__inner.is-checked::after {
@@ -5699,6 +5845,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-tag {
@@ -5856,6 +6004,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-table-filter {
@@ -6004,6 +6154,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 @charset "UTF-8";
 :root {
@@ -6085,6 +6237,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-select-dropdown {
     position: absolute;
@@ -6098,7 +6252,7 @@
 }
 .el-select-dropdown.is-multiple {}
 .el-select-dropdown.is-multiple .el-select-dropdown__item.selected {
-    color: #f60;
+    color: #20a0ff;
     background-color: #fff;
 }
 .el-select-dropdown.is-multiple .el-select-dropdown__item.selected.hover {
@@ -6209,6 +6363,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-input {
     position: relative;
@@ -6234,7 +6390,7 @@
 }
 .el-input.is-active .el-input__inner {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-input__inner {
     display: block;
@@ -6249,6 +6405,7 @@
     border-radius: 4px;
     transition: border-color .2s cubic-bezier(.645,.045,.355,1);
     outline: none;
+    font-size: inherit;
     line-height: normal;
 }
 .el-input__inner::-webkit-input-placeholder {
@@ -6268,7 +6425,7 @@
 }
 .el-input__inner:focus {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-input__icon {
     position: absolute;
@@ -6412,7 +6569,7 @@
 }
 .el-textarea__inner:focus {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 @charset "UTF-8";
 :root {
@@ -6493,6 +6650,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-tag {
@@ -6652,6 +6811,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-select-dropdown {}
 .el-select-dropdown__item {
@@ -6672,7 +6833,7 @@
 }
 .el-select-dropdown__item.selected {
     color: #fff;
-    background-color: #f60;
+    background-color: #20a0ff;
 }
 .el-select-dropdown__item.selected.hover {
     background-color: #1D8CE0;
@@ -6767,6 +6928,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-select-group {
     margin: 0;
@@ -6794,6 +6957,12 @@
 .el-select:hover .el-input__inner {
     border-color: #8492a6;
 }
+.el-select .el-input__inner {
+    cursor: pointer;
+}
+.el-select .el-input__inner:focus {
+    border-color: #2ea0ff;
+}
 .el-select .el-input {}
 .el-select .el-input .el-input__icon {
     color: #C0CCDA;
@@ -6820,12 +6989,6 @@
 }
 .el-select .el-input .el-input__icon.is-reverse {
     transform: translateY(-50%);
-}
-.el-select .el-input .el-input__inner {
-    cursor: pointer;
-}
-.el-select .el-input .el-input__inner:focus {
-    border-color: #2ea0ff;
 }
 .el-select .el-input.is-disabled {}
 .el-select .el-input.is-disabled .el-input__inner {
@@ -6888,7 +7051,7 @@
     font-size: 14px;
     border-radius: 4px;
     color: #fff;
-    background-color: #f60;
+    background-color: #20a0ff;
 }
 .el-select__tag .el-icon-close {
     font-size: 12px;
@@ -6972,6 +7135,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-pagination {
     white-space: nowrap;
@@ -7003,7 +7168,7 @@
     outline: none;
 }
 .el-pagination button:hover {
-    color: #f60;
+    color: #20a0ff;
 }
 .el-pagination button.disabled {
     color: #e4e4e4;
@@ -7051,7 +7216,7 @@
     border-color: #D3DCE6;
 }
 .el-pagination__sizes .el-input .el-input__inner:hover {
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-pagination__jump {
     margin-left: 10px;
@@ -7079,7 +7244,7 @@
 }
 .el-pagination__editor:focus {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-pager {
     -webkit-user-select: none;
@@ -7125,11 +7290,11 @@
     padding-left: 5px;
 }
 .el-pager li:hover {
-    color: #f60;
+    color: #20a0ff;
 }
 .el-pager li.active {
-    border-color: #f60;
-    background-color: #f60;
+    border-color: #20a0ff;
+    background-color: #20a0ff;
     color: #fff;
     cursor: default;
 }
@@ -7212,6 +7377,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-popover {
@@ -7391,6 +7558,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-tooltip {
@@ -7593,6 +7762,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-input {
     position: relative;
@@ -7618,7 +7789,7 @@
 }
 .el-input.is-active .el-input__inner {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-input__inner {
     display: block;
@@ -7633,6 +7804,7 @@
     border-radius: 4px;
     transition: border-color .2s cubic-bezier(.645,.045,.355,1);
     outline: none;
+    font-size: inherit;
     line-height: normal;
 }
 .el-input__inner::-webkit-input-placeholder {
@@ -7652,7 +7824,7 @@
 }
 .el-input__inner:focus {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-input__icon {
     position: absolute;
@@ -7796,7 +7968,7 @@
 }
 .el-textarea__inner:focus {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 :root {
     /* Transition
@@ -7877,6 +8049,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-autocomplete {
     position: relative;
@@ -7913,11 +8087,11 @@
     background-color: #e5e9f2;
 }
 .el-autocomplete__suggestions li.highlighted {
-    background-color: #f60;
+    background-color: #20a0ff;
     color: #fff;
 }
 .el-autocomplete__suggestions li:active {
-    background-color: rgb(204, 82, 0);
+    background-color: rgb(0, 130, 230);
 }
 .el-autocomplete__suggestions li.divider {
     margin-top: 6px;
@@ -8018,6 +8192,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-message {
@@ -8160,6 +8336,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 @charset "UTF-8";
 :root {
@@ -8241,6 +8419,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-button {
     display: inline-block;
@@ -8266,12 +8446,12 @@
     margin-left: 10px;
 }
 .el-button:hover {
-    color: #f60;
-    border-color: #f60;
+    color: #20a0ff;
+    border-color: #20a0ff;
 }
 .el-button:active {
-    color: rgb(230, 92, 0);
-    border-color: rgb(230, 92, 0);
+    color: rgb(29, 144, 230);
+    border-color: rgb(29, 144, 230);
     outline: none;
 }
 .el-button::-moz-focus-inner {
@@ -8314,40 +8494,40 @@
     color: #C0CCDA;
 }
 .el-button.is-active {
-    color: rgb(230, 92, 0);
-    border-color: rgb(230, 92, 0);
+    color: rgb(29, 144, 230);
+    border-color: rgb(29, 144, 230);
 }
 .el-button.is-plain {}
 .el-button.is-plain:hover {
     background: #fff;
-    border-color: #f60;
-    color: #f60;
+    border-color: #20a0ff;
+    color: #20a0ff;
 }
 .el-button.is-plain:active {
     background: #fff;
-    border-color: rgb(230, 92, 0);
-    color: rgb(230, 92, 0);
+    border-color: rgb(29, 144, 230);
+    color: rgb(29, 144, 230);
     outline: none;
 }
 .el-button--primary {
     color: #fff;
-    background-color: #f60;
-    border-color: #f60;
+    background-color: #20a0ff;
+    border-color: #20a0ff;
 }
 .el-button--primary:hover {
-    background: rgb(255, 133, 51);
-    border-color: rgb(255, 133, 51);
+    background: rgb(77, 179, 255);
+    border-color: rgb(77, 179, 255);
     color: #fff;
 }
 .el-button--primary:active {
-    background: rgb(230, 92, 0);
-    border-color: rgb(230, 92, 0);
+    background: rgb(29, 144, 230);
+    border-color: rgb(29, 144, 230);
     color: #fff;
     outline: none;
 }
 .el-button--primary.is-active {
-    background: rgb(230, 92, 0);
-    border-color: rgb(230, 92, 0);
+    background: rgb(29, 144, 230);
+    border-color: rgb(29, 144, 230);
     color: #fff;
 }
 .el-button--primary.is-plain {
@@ -8357,13 +8537,13 @@
 }
 .el-button--primary.is-plain:hover {
     background: #fff;
-    border-color: #f60;
-    color: #f60;
+    border-color: #20a0ff;
+    color: #20a0ff;
 }
 .el-button--primary.is-plain:active {
     background: #fff;
-    border-color: rgb(230, 92, 0);
-    color: rgb(230, 92, 0);
+    border-color: rgb(29, 144, 230);
+    color: rgb(29, 144, 230);
     outline: none;
 }
 .el-button--success {
@@ -8531,16 +8711,16 @@
 }
 .el-button--text {
     border: none;
-    color: #f60;
+    color: #20a0ff;
     background: transparent;
     padding-left: 0;
     padding-right: 0;
 }
 .el-button--text:hover {
-    color: rgb(255, 133, 51);
+    color: rgb(77, 179, 255);
 }
 .el-button--text:active {
-    color: rgb(230, 92, 0);
+    color: rgb(29, 144, 230);
 }
 .el-button-group {
     display: inline-block;
@@ -8707,6 +8887,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-input {
     position: relative;
@@ -8732,7 +8914,7 @@
 }
 .el-input.is-active .el-input__inner {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-input__inner {
     display: block;
@@ -8747,6 +8929,7 @@
     border-radius: 4px;
     transition: border-color .2s cubic-bezier(.645,.045,.355,1);
     outline: none;
+    font-size: inherit;
     line-height: normal;
 }
 .el-input__inner::-webkit-input-placeholder {
@@ -8766,7 +8949,7 @@
 }
 .el-input__inner:focus {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-input__icon {
     position: absolute;
@@ -8910,7 +9093,7 @@
 }
 .el-textarea__inner:focus {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .v-modal-enter {
     animation: v-modal-in .2s ease;
@@ -8986,7 +9169,7 @@
     text-align: center;
 }
 .el-message-box__close:hover {
-    color: #f60;
+    color: #20a0ff;
 }
 .el-message-box__input {
     padding-top: 15px;
@@ -9152,6 +9335,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-date-table {
     font-size: 12px;
@@ -9288,6 +9473,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-month-table {
     font-size: 12px;
@@ -9396,6 +9583,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-year-table {
@@ -9507,6 +9696,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-time-spinner {}
@@ -9629,6 +9820,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 @charset "UTF-8";
 :root {
@@ -9709,6 +9902,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .fade-in-linear-enter-active, .fade-in-linear-leave-active {
@@ -9959,6 +10154,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 :root {
     /* Transition
@@ -10038,6 +10235,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-picker-panel {
@@ -10294,6 +10493,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-date-range-picker {
@@ -10477,6 +10678,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-time-range-picker {
     min-width: 354px;
@@ -10586,6 +10789,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 @charset "UTF-8";
 :root {
@@ -10666,6 +10871,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .fade-in-linear-enter-active, .fade-in-linear-leave-active {
@@ -10916,6 +11123,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-time-spinner {}
 .el-time-spinner__wrapper {
@@ -11036,6 +11245,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-time-panel {
@@ -11187,6 +11398,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 @charset "UTF-8";
 :root {
@@ -11267,6 +11480,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .fade-in-linear-enter-active, .fade-in-linear-leave-active {
@@ -11517,6 +11732,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 :root {
     /* Transition
@@ -11596,6 +11813,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-picker-panel {
@@ -11853,6 +12072,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .time-select {
     margin: 5px 0;
@@ -11966,6 +12187,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-input {
     position: relative;
@@ -11991,7 +12214,7 @@
 }
 .el-input.is-active .el-input__inner {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-input__inner {
     display: block;
@@ -12006,6 +12229,7 @@
     border-radius: 4px;
     transition: border-color .2s cubic-bezier(.645,.045,.355,1);
     outline: none;
+    font-size: inherit;
     line-height: normal;
 }
 .el-input__inner::-webkit-input-placeholder {
@@ -12025,7 +12249,7 @@
 }
 .el-input__inner:focus {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-input__icon {
     position: absolute;
@@ -12169,7 +12393,7 @@
 }
 .el-textarea__inner:focus {
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 :root {
     /* Transition
@@ -12250,6 +12474,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-input-number {
     display: inline-block;
@@ -12283,7 +12509,7 @@
     position: absolute;
 }
 .el-input-number__increase:hover, .el-input-number__decrease:hover {
-    color: #f60;
+    color: #20a0ff;
 }
 .el-input-number__increase.is-disabled, .el-input-number__decrease.is-disabled {
     color: #D3DCE6;
@@ -12402,6 +12628,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-tag {
@@ -12561,6 +12789,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-breadcrumb {
     font-size: 13px;
@@ -12587,7 +12817,7 @@
     color: #475669;
 }
 .el-breadcrumb__item__inner:hover, .el-breadcrumb__item__inner a:hover {
-    color: #f60;
+    color: #20a0ff;
     cursor: pointer;
 }
 @charset "UTF-8";
@@ -12669,6 +12899,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-form {}
@@ -12813,6 +13045,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-tabs {
     display: inline-block;
@@ -12836,7 +13070,7 @@
     left: 0;
     width: 100%;
     height: 3px;
-    background-color: #f60;
+    background-color: #20a0ff;
     z-index: 1;
     transition: transform .3s cubic-bezier(.645,.045,.355,1);
     list-style: none;
@@ -12858,7 +13092,7 @@
     cursor: pointer;
 }
 .el-tabs__item.is-active {
-    color: #f60;
+    color: #20a0ff;
 }
 .el-tabs__content {
     overflow: hidden;
@@ -13097,6 +13331,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-progress {
     position: relative;
@@ -13176,7 +13412,7 @@
     top: 0;
     height: 100%;
     border-radius: 2px 0 0 2px;
-    background-color: #f60;
+    background-color: #20a0ff;
     text-align: right;
     border-radius: 100px;
     line-height: 1;
@@ -13287,6 +13523,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-tree {
@@ -13441,6 +13679,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-menu-item, .el-submenu__title {
     height: 56px;
@@ -13539,7 +13779,7 @@
     background-color: #eff2f7;
 }
 .el-menu--horizontal > .el-menu-item:hover, .el-menu--horizontal > .el-submenu:hover .el-submenu__title, .el-menu--horizontal > .el-submenu.is-active .el-submenu__title {
-    border-bottom: 5px solid #f60;
+    border-bottom: 5px solid #20a0ff;
 }
 .el-menu--horizontal.el-menu--dark {}
 .el-menu--horizontal.el-menu--dark .el-menu-item:hover, .el-menu--horizontal.el-menu--dark .el-submenu__title:hover {
@@ -13552,7 +13792,7 @@
     background-color: #d3dce6;
 }
 .el-menu--horizontal.el-menu--dark .el-submenu .el-menu-item.is-active {
-    color: #f60;
+    color: #20a0ff;
 }
 .el-menu-item [class^="el-icon-"] {
     vertical-align: baseline;
@@ -13568,7 +13808,7 @@
     background-color: #d3dce6;
 }
 .el-menu-item.is-active {
-    color: #f60;
+    color: #20a0ff;
 }
 .el-submenu [class^="el-icon-"] {
     vertical-align: baseline;
@@ -13589,7 +13829,7 @@
     transform: rotateZ(180deg);
 }
 .el-submenu.is-active .el-submenu__title {
-    border-bottom-color: #f60;
+    border-bottom-color: #20a0ff;
 }
 .el-submenu__title {
     position: relative;
@@ -13696,6 +13936,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-progress {
     position: relative;
@@ -13775,7 +14017,7 @@
     top: 0;
     height: 100%;
     border-radius: 2px 0 0 2px;
-    background-color: #f60;
+    background-color: #20a0ff;
     text-align: right;
     border-radius: 100px;
     line-height: 1;
@@ -13874,6 +14116,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-upload {
     width: 360px;
@@ -13944,7 +14188,7 @@
 }
 .el-upload__file.is-finished {}
 .el-upload__file.is-finished a:hover {
-    color: #f60;
+    color: #20a0ff;
     cursor: pointer;
 }
 .el-upload__file.is-finished:hover .el-upload__btn-delete {
@@ -13961,7 +14205,7 @@
     right: 15px;
     top: 0;
     font-size: 12px;
-    color: #f60;
+    color: #20a0ff;
     display: none;
 }
 .el-dragger {
@@ -13995,11 +14239,11 @@
     border-top: 1px solid rgba(192, 204, 218, 0.2);
 }
 .el-dragger:not(.is-showCover):hover {
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-dragger.is-dragOver {
     background-color: rgba(32, 159, 255, .06);
-    border: 2px dashed #f60;
+    border: 2px dashed #20a0ff;
 }
 .el-dragger__cover {
     position: absolute;
@@ -14108,7 +14352,7 @@
     text-align: center;
 }
 .el-dragger__text em {
-    color: #f60;
+    color: #20a0ff;
     font-style: normal;
 }
 @charset "UTF-8";
@@ -14190,6 +14434,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-row {
@@ -14313,6 +14559,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-col-1, .el-col-2, .el-col-3, .el-col-4, .el-col-5, .el-col-6, .el-col-7, .el-col-8, .el-col-9, .el-col-10, .el-col-11, .el-col-12, .el-col-13, .el-col-14, .el-col-15, .el-col-16, .el-col-17, .el-col-18, .el-col-19, .el-col-20, .el-col-21, .el-col-22, .el-col-23, .el-col-24 {
@@ -14735,6 +14983,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-time-spinner {
     display: -ms-flexbox;
@@ -14854,6 +15104,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-badge {
     position: relative;
@@ -14969,6 +15221,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-card {
     border: 1px solid #D3DCE6;
@@ -15066,9 +15320,12 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-rate {
     height: 20px;
+    line-height: 1;
 }
 .el-rate__item {
     display: inline-block;
@@ -15183,6 +15440,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-steps {
     font-size: 0;
@@ -15272,6 +15531,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-step {

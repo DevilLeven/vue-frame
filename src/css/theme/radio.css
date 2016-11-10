@@ -78,6 +78,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 
 .el-radio{
@@ -119,7 +121,7 @@
 }
 
 .el-radio__inner:not(.is-disabled):hover{
-    border-color: #f60
+    border-color: #20a0ff
 }
 
 .el-radio__inner::after{
@@ -145,12 +147,12 @@
 }
 
 .el-radio__inner.is-focus{
-    border-color: #f60
+    border-color: #20a0ff
 }
 
 .el-radio__inner.is-checked{
-    border-color: #f60;
-    background: #f60
+    border-color: #20a0ff;
+    background: #20a0ff
 }
 
 .el-radio__inner.is-checked::after{
@@ -191,7 +193,8 @@
 
 .el-radio-group{
     display: inline-block;
-    font-size: 0
+    font-size: 0;
+    line-height: 1
 }
 
 .el-radio-group .el-radio{
@@ -242,7 +245,7 @@
 }
 
 .el-radio-button__inner:hover{
-    color: #f60
+    color: #20a0ff
 }
 
 .el-radio-button__inner [class*="el-icon-"]{
@@ -265,8 +268,8 @@
 
 .el-radio-button__orig-radio:checked + .el-radio-button__inner{
     z-index: 1;
-    color: #f60;
-    border-color: #f60
+    color: #20a0ff;
+    border-color: #20a0ff
 }
 
 .el-radio-button__orig-radio:disabled{}

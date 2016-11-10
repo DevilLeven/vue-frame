@@ -90,6 +90,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-progress{
     position: relative;
@@ -169,7 +171,7 @@
     top: 0;
     height: 100%;
     border-radius: 2px 0 0 2px;
-    background-color: #f60;
+    background-color: #20a0ff;
     text-align: right;
     border-radius: 100px;
     line-height: 1;
@@ -268,6 +270,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 
 .el-upload{
@@ -352,7 +356,7 @@
 .el-upload__file.is-finished{}
 
 .el-upload__file.is-finished a:hover{
-    color: #f60;
+    color: #20a0ff;
     cursor: pointer;
 }
 
@@ -372,7 +376,7 @@
     right: 15px;
     top: 0;
     font-size: 12px;
-    color: #f60;
+    color: #20a0ff;
     display: none;
 }
 
@@ -412,12 +416,12 @@
 }
 
 .el-dragger:not(.is-showCover):hover{
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 
 .el-dragger.is-dragOver{
     background-color: rgba(32, 159, 255, .06);
-    border: 2px dashed #f60;
+    border: 2px dashed #20a0ff;
 }
 
 .el-dragger__cover{
@@ -537,6 +541,6 @@
 }
 
 .el-dragger__text em{
-    color: #f60;
+    color: #20a0ff;
     font-style: normal;
 }

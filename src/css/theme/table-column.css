@@ -79,6 +79,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-checkbox{
     color: #1f2d3d;
@@ -116,7 +118,7 @@
                   background-color .25s cubic-bezier(.71,-.46,.29,1.46);
 }
 .el-checkbox__inner:not(.is-disabled):hover{
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-checkbox__inner::after{
     content: "";
@@ -147,7 +149,7 @@
     border-color: #fff;
 }
 .el-checkbox__inner.is-indeterminate{
-    background-color: #f60;
+    background-color: #20a0ff;
     border-color: #2e90fe;
 }
 .el-checkbox__inner.is-indeterminate::before{
@@ -164,10 +166,10 @@
     display: none;
 }
 .el-checkbox__inner.is-focus{
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-checkbox__inner.is-checked{
-    background-color: #f60;
+    background-color: #20a0ff;
     border-color: #2e90fe;
 }
 .el-checkbox__inner.is-checked::after{
@@ -275,6 +277,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-tag{
@@ -432,6 +436,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 

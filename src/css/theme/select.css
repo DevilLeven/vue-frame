@@ -78,6 +78,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 @charset "UTF-8";
 :root{
@@ -159,6 +161,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-select-dropdown{
     position: absolute;
@@ -172,7 +176,7 @@
 }
 .el-select-dropdown.is-multiple{}
 .el-select-dropdown.is-multiple .el-select-dropdown__item.selected{
-    color: #f60;
+    color: #20a0ff;
     background-color: #fff
 }
 .el-select-dropdown.is-multiple .el-select-dropdown__item.selected.hover{
@@ -283,6 +287,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-input{
     position: relative;
@@ -308,7 +314,7 @@
 }
 .el-input.is-active .el-input__inner{
     outline: none;
-    border-color: #f60
+    border-color: #20a0ff
 }
 .el-input__inner{
     display: block;
@@ -323,6 +329,7 @@
     border-radius: 4px;
     transition: border-color .2s cubic-bezier(.645,.045,.355,1);
     outline: none;
+    font-size: inherit;
     line-height: normal
 }
 .el-input__inner::-webkit-input-placeholder{
@@ -342,7 +349,7 @@
 }
 .el-input__inner:focus{
     outline: none;
-    border-color: #f60
+    border-color: #20a0ff
 }
 .el-input__icon{
     position: absolute;
@@ -486,7 +493,7 @@
 }
 .el-textarea__inner:focus{
     outline: none;
-    border-color: #f60
+    border-color: #20a0ff
 }
 @charset "UTF-8";
 :root{
@@ -567,6 +574,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-tag{
@@ -726,6 +735,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-select-dropdown{}
 .el-select-dropdown__item{
@@ -746,7 +757,7 @@
 }
 .el-select-dropdown__item.selected{
     color: #fff;
-    background-color: #f60
+    background-color: #20a0ff
 }
 .el-select-dropdown__item.selected.hover{
     background-color: #1D8CE0
@@ -841,6 +852,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-select-group{
     margin: 0;
@@ -869,6 +882,14 @@
 
 .el-select:hover .el-input__inner{
     border-color: #8492a6
+}
+
+.el-select .el-input__inner{
+    cursor: pointer
+}
+
+.el-select .el-input__inner:focus{
+    border-color: #2ea0ff
 }
 
 .el-select .el-input{}
@@ -901,14 +922,6 @@
 
 .el-select .el-input .el-input__icon.is-reverse{
     transform: translateY(-50%)
-}
-
-.el-select .el-input .el-input__inner{
-    cursor: pointer
-}
-
-.el-select .el-input .el-input__inner:focus{
-    border-color: #2ea0ff
 }
 
 .el-select .el-input.is-disabled{}
@@ -983,7 +996,7 @@
     font-size: 14px;
     border-radius: 4px;
     color: #fff;
-    background-color: #f60
+    background-color: #20a0ff
 }
 
 .el-select__tag .el-icon-close{

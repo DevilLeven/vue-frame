@@ -86,6 +86,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-input{
     position: relative;
@@ -111,7 +113,7 @@
 }
 .el-input.is-active .el-input__inner{
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-input__inner{
     display: block;
@@ -126,6 +128,7 @@
     border-radius: 4px;
     transition: border-color .2s cubic-bezier(.645,.045,.355,1);
     outline: none;
+    font-size: inherit;
     line-height: normal;
 }
 .el-input__inner::-webkit-input-placeholder{
@@ -145,7 +148,7 @@
 }
 .el-input__inner:focus{
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 .el-input__icon{
     position: absolute;
@@ -289,7 +292,7 @@
 }
 .el-textarea__inner:focus{
     outline: none;
-    border-color: #f60;
+    border-color: #20a0ff;
 }
 :root{
     /* Transition
@@ -370,6 +373,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 .el-input-number{
     display: inline-block;
@@ -403,7 +408,7 @@
     position: absolute;
 }
 .el-input-number__increase:hover, .el-input-number__decrease:hover{
-    color: #f60;
+    color: #20a0ff;
 }
 .el-input-number__increase.is-disabled, .el-input-number__decrease.is-disabled{
     color: #D3DCE6;
@@ -522,6 +527,8 @@
     /* Rate
   --------------------------*/
     /* DatePicker
+  --------------------------*/
+    /* Loading
   --------------------------*/
 }
 .el-tooltip{
@@ -722,6 +729,8 @@
   --------------------------*/
     /* DatePicker
   --------------------------*/
+    /* Loading
+  --------------------------*/
 }
 
 .el-slider{}
@@ -781,7 +790,7 @@
 
 .el-slider__bar{
     height: 4px;
-    background-color: #f60;
+    background-color: #20a0ff;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     position: absolute;
@@ -829,7 +838,7 @@
 .el-slider__button{
     width: 12px;
     height: 12px;
-    background-color: #f60;
+    background-color: #20a0ff;
     border-radius: 50%;
     transition: .2s;
 }
